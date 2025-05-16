@@ -1,7 +1,7 @@
 {
     "version" : 2,
     "builds" : [
-        {"use" : "@vercel/phyton"}
+        {"scr": "app.py", "use" : "@vercel/phyton"}
     ],
     "routes": [
         {"src" : "/(.*)", "dest" : "app.py"}
